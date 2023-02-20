@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@800;900&family=IBM+Plex+Sans:wght@400;700&display=swap');
+
+body{
+    font-family:"IBM Plex Sans"; 
+    background-image: url("assets/bg-main-mobile.png");
+    background-repeat: no-repeat;  
+    background-position-x: calc(100% + 233px);        
+    background-position-y: calc(0% - 300px);      
+    height:100%;
+}
+
+.firstsection{
+    margin-left:24px;
+    margin-right:24px;
+    margin-bottom:68px; 
+}
+
+.logo{
+    margin-top:40px;
+}
+
+.firstsection h1{
+    margin-top:64px;
+    font-size:40px;
+    font-weight:700;
+    line-height:48px;
+
+}
+
+.firstsection p{
+    margin-top:20px;
+    font-size:16px;
+    font-weight:400;
+    line-height:26px;
+}
+
+.secondsection{
+    position:relative; 
+    height:inherit;
+}
+
+.mobilepic{
+    display:flex;
+    justify-content: center;
+}
+.mobilepic img{  
+    width:209px; 
+    height:430px;
+}
+
+.patterndiv{
+    position:absolute;
+    top:98px; 
+    width:100%; 
+    background-color:#191826;
+    display:flex;
+    justify-content: center;  
+    border-radius:12px;
+    z-index:-2; 
+    max-height:760px;
+
+}
+
+.patterndiv img{
+    width: 75%;
+}
+
+.infodiv{
+    background-color:#FA7453;
+    color:#FCFAF9;
+    padding:48px 37px 48px 36px;
+    border-radius:12px; 
+    margin-top:48px;
+
+}
+
+.infodiv h2{
+    font-size:32px;
+    font-weight:700;
+    line-height:40px;
+}
+
+.infodiv p{
+    font-size:18px;
+    font-weight:400;
+    line-height:28px;
+    margin-top:12px; 
+}
+
+.cost{
+    display:flex;
+    margin-top:36px;
+    margin-bottom:32px;
+     
+}
+.cost h3{
+    font-size:65px;
+    font-weight:700;
+    display:inline;
+}
+
+.cost p{
+    display:inline;
+    font-size:20px;
+    margin-top:0px; 
+    margin-left:16px;
+    line-height:65px; 
+ } 
+
+ .downloadbutton{
+    font-family:"IBM Plex Sans";
+    border-radius:12px;
+    width:100%;
+    height:61px; 
+    font-size:18px;
+    font-weight:700;
+    border:none;  
+ }
+ .downloadbutton.apple{  
+    background-color:#191826;
+    color:white;
+
+ }
+
+ .downloadbutton.android{
+    background-color:#FCFAF9;
+    margin-top:16px;
+ }
+
+ .downloadbutton img{
+    margin-right:8px;
+ }
+
+ .downloadbutton.apple:hover{  
+    background-color: #66E2DC;
+    cursor:pointer;
+
+ }
+
+ .downloadbutton.android:hover{
+    background-color:#FFB964;
+    cursor:pointer;
+    
+ }
+
+ footer{
+    
+    bottom:0%; 
+    font-family:"IBM Plex Sans"; 
+    padding:64px 24px 82px 24px;  
+ }
+
+ footer p{
+    margin-top:32px;
+    font-size:16px;
+    line-height:26px;
+    font-weight:400; 
+
+ }
+ footer p a{
+    
+    text-decoration: none;
+    color:#191826; 
+    font-weight:700; 
+ }
+
+ .socialnetwork{
+    margin-left:-20px; 
+    margin-top:66.25px;
+ }
+
+ .socialnetwork a{
+    margin-left:20px; 
+ }
+
+ .socialnetwork a img:hover{
+    filter: invert(50%) sepia(39%) saturate(846%) hue-rotate(324deg) brightness(105%) contrast(96%); 
+}

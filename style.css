@@ -8,36 +8,29 @@ body{
     background-position-y: calc(0% - 300px);      
     height:100%;
 }
-
 .firstsection{
     margin-left:24px;
     margin-right:24px;
     margin-bottom:68px; 
 }
-
 .logo{
     margin-top:40px;
 }
-
 .firstsection h1{
     margin-top:64px;
     font-size:40px;
     font-weight:700;
     line-height:48px;
-
 }
-
 .firstsection p{
     margin-top:20px;
     font-size:16px;
     font-weight:400;
     line-height:26px;
 }
-
 .secondsection{
     position:relative; 
 }
-
 .mobilepic{
     display:flex;
     justify-content: center;
@@ -46,7 +39,6 @@ body{
     width:209px; 
     height:430px;
 }
-
 .patterndiv{
     position:absolute;
     top:98px; 
@@ -57,13 +49,10 @@ body{
     border-radius:12px;
     z-index:-2; 
     max-height:760px;  
-
 }
-
 .patterndiv img{
     width: 75%;
 }
-
 .infodiv{
     background-color:#FA7453;
     color:#FCFAF9;
@@ -72,20 +61,17 @@ body{
     margin-top:48px;
 
 }
-
 .infodiv h2{
     font-size:32px;
     font-weight:700;
     line-height:40px;
 }
-
 .infodiv p{
     font-size:18px;
     font-weight:400;
     line-height:28px;
     margin-top:12px; 
 }
-
 .cost{
     display:flex;
     margin-top:36px;
@@ -97,7 +83,6 @@ body{
     font-weight:700;
     display:inline;
 }
-
 .cost p{
     display:inline;
     font-size:20px;
@@ -105,7 +90,6 @@ body{
     margin-left:16px;
     line-height:65px; 
  } 
-
  .downloadbutton{
     font-family:"IBM Plex Sans";
     border-radius:12px;
@@ -118,9 +102,7 @@ body{
  .downloadbutton.apple{  
     background-color:#191826;
     color:white;
-
  }
-
  .downloadbutton.android{
     background-color:#FCFAF9;
     margin-top:16px;
@@ -129,22 +111,18 @@ body{
  .downloadbutton img{
     margin-right:8px;
  }
-
  .downloadbutton.apple:hover{  
     background-color: #66E2DC;
     cursor:pointer;
-
  }
 
  .downloadbutton.android:hover{
     background-color:#FFB964;
     cursor:pointer; 
-
  }
 
  footer{
     padding:64px 24px 82px 24px;  
-
  }
 
  footer p{
@@ -175,7 +153,7 @@ body{
 @media only screen and (min-width: 768px){
     body{ 
         background-image: url("assets/bg-main-tablet.png"), url("assets/bg-pattern-1.svg");
-        background-repeat: no-repeat;  
+        background-repeat: no-repeat, no-repeat;
         background-size:auto , 267px;   
         background-position-x: calc(100% + 185px), calc(100% - -40px);        
         background-position-y: calc(0% - 300px), calc(0% + -35px);
@@ -189,21 +167,16 @@ body{
     .logo{
         margin-top:40px;
     }
-    
     .firstsection h1{
         margin-top:95px;
         font-size:64px;
-        font-weight:700;
         line-height:64px;
-    
     }
     .firstsection p{
         margin-top:28px;
         font-size:18px;
-        font-weight:400;
         line-height:28px;
-    }
-    
+    } 
     .secondsection{
         margin-left:33px;
         margin-right:39px;
@@ -218,7 +191,6 @@ body{
         width:270px;  
         height:556px; 
     }
-
     .patterndiv{
         display:unset; 
         top:138px;
@@ -226,38 +198,107 @@ body{
         width:100%;
         height:72%;     
     }
-
     .patterndiv img{
         width:auto;  
         height:auto; 
-        margin-left:calc(0% + 219px);    
+        /* margin-left:calc(0% + 219px);     */
+        margin-left:calc(9% + 165px);  
         margin-top:calc(0% - 45px);      
     }
-
     .infodiv{
         width:51%;
-        margin-left:30%;   
+        margin-left:calc(9% + 175px);    
         margin-top:-258px; 
     }
-
     footer{
         padding:87px 39px 85px 33px;   
      }
     .footerlogo{
         display:block;
     }
-    
      footer p{
         display:inline-block;   
      }
-    
      .socialnetwork{
         display:flex; 
-        margin-left:80%;      
+        margin-left:calc(100% - 139px);      
         margin-top:-46px;     
      }
-    
      .socialnetwork a{
         margin-left:20px; 
      }
+}
+
+@media only screen and (min-width: 1440px){
+    body{
+        background-image: url("assets/bg-main-desktop.png"), url("assets/bg-pattern-1.svg");
+        background-size:auto , 312px;    
+        background-position-x: calc(100% + 185px), calc(100% - -40px);        
+        background-position-y: calc(0% - 300px), calc(0% + -35px);
+        height:100%;
+    }
+    .firstsection{
+        margin-left:165px; 
+        margin-right:260px; 
+        margin-bottom:117px;  
+    }
+    .logo{
+        margin-top:62px;
+    }
+    .firstsection h1{
+        margin-top:127px; 
+        font-size:88px;
+        line-height:88px;
+    }
+    .firstsection p{
+        margin-top:40px;
+        font-size:20px;
+        line-height:34px;
+        width:850px;
+    }
+    .secondsection{
+        margin-left:165px;
+        margin-right:165px; 
+    }
+    .mobilepic img{  
+        width:312px;   
+        height:642px; 
+    }
+    .patterndiv{
+        top:213px; 
+        width:100%; 
+    }
+    .patterndiv img{ 
+        margin-left:calc(9% + 235px);            
+    }
+    .infodiv{
+        max-width:35%;  
+        margin-left:calc(9% + 460px);
+        margin-top:-350px; 
+        padding:58px 59px 48px 54px;
+      } 
+    .infodiv h2{
+        font-size:40px;
+        line-height:42px;
+    } 
+    .infodiv p{
+        font-size:20px;
+        line-height:34px;
+        margin-top:22px;  
+    }
+    .cost{
+        margin-top:39px;
+        margin-bottom:46px;
+    }   
+    footer{
+        padding:87px 165px 91px 165px;    
+     }
+    .footerlogo{
+        position:relative;
+        margin-bottom:45px;   
+        display:inline-block;
+    }
+     footer p{
+        margin-left:137px;  
+     } 
 }
